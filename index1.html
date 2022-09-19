@@ -17,29 +17,27 @@
 				</div>
 			</div>
 		</header>
-		<div class="container">
-			<nav>
-				<div class="nav-wrapper">
-					<ul>
-						<li>
-							<a href="#Main" title="Главная часть">
-								Ссылки
-							</a>
-						</li>
-						<li>
-							<a href="#myForm" title="Форма">
-								Форма
-							</a>
-						</li>
-					</ul>
-				</div>
+
+			<nav class="navigation">
+				<ul>
+					<li>
+						<a href="#Main" title="Главная часть">
+							Ссылки
+						</a>
+					</li>
+					<li>
+						<a href="#myForm" title="Форма">
+							Форма
+						</a>
+					</li>
+				</ul>
 			</nav>
-		</div>
+
 		<map name="mapSquare"> 
 			<area shape="rect" coords="0,0,82,126" href="http://example.com/" alt="">
 			<area shape="circle" coords="950,300,500" href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/map" alt="">
 		</map>
-		<ol id="Main">	
+		<ol class="main-links">	
 			<li><a href="http://example.com/">абсолютную гиперссылку</a></li>
 			<li><a href="https://example.com/">абсолютную в протоколе https</a></li>
 			<li><a href="ftp://public.ftp-servers.example.com/mydirectory/myfile.txt">ссылку на файл на сервере FTP без авторизации</a></li>
@@ -61,6 +59,52 @@
 			<li><a href="/">сокращенную на главную</a></li>
 			<li><a href="/asd">сокращенную ссылку на внутреннюю</a></li>
 		</ol>
+		<table>
+		  <tr>
+		    <td>Emil</td>
+		    <td>Tobias</td>
+		    <td>Linus</td>
+		    <td>Emil</td>
+		    <td>Tobias</td>
+		  </tr>
+		  <tr>
+		  	<td colspan="3">Emil</td>
+		    <th rowspan="5">Tobias</th>
+		    <td>Linus</td>
+		  </tr>
+		  <tr>
+		    <td>Emil</td>
+		    <td>Tobias</td>
+		  	<td>Tobias</td>
+		    <td>Linus</td>
+		  </tr>
+		  <tr>
+		  	<td>Emil</td>
+		    <td>Tobias</td>
+		    <td>Tobias</td>
+		    <td>Linus</td>
+		  </tr>
+		  <tr>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		    <td>Linus</td>
+		  </tr>
+		  <tr>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		    <td>Linus</td>
+		  </tr>
+		  <tr>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		  	<td>Tobias</td>
+		    <td>Tobias</td>
+		  </tr>
+
+		</table>
 		<form action="send.php" id="myForm">
 			<label for="GET-name">Имя:</label>
 			<input id="GET-name" type="text" name="name">
@@ -98,6 +142,6 @@
 			<br>
 			<input type="submit" value="Отсправить">
 		</form>
-		<footer id="myFooter"></footer>
+		<footer class="myFooter">(с) Дмитрий Белозоров 2022</footer>
 	</body>
 	</html>
