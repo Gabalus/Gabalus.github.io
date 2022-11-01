@@ -2,11 +2,7 @@
 
 
 
-.container {
 
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .header-wrapper {
 	display: flex;
@@ -16,7 +12,7 @@ body{
     padding: 0;
 }
 header {
-	background: red;
+	background: blue;
 	display: flex;
   border-collapse: collapse;
       margin: 0;
@@ -61,7 +57,6 @@ nav ul li {
 
      display: inline-block;
      float: none;
-     margin: 0 auto;
 }
 .navigation ul 
 {
@@ -76,7 +71,6 @@ nav ul li {
 
     float: none;
     display:flex;
-    margin: 0 1.15em;
  }
  .navigation li a {
 
@@ -87,7 +81,7 @@ nav ul li {
  	margin: 0 auto;
     text-align: center;
 	max-width: 960px;
-    background: red;
+    background: blue;
  }
  .main-links
  {
@@ -137,7 +131,7 @@ tr:nth-child(2n+1)
 }
 .myFooter
 {
-	background: red;
+	background: blue;
 	margin: 0 auto;
 	text-align: center;
     padding: 0;
