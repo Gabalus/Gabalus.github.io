@@ -1,5 +1,7 @@
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 <style>
 	body{
 		background-color: green;
@@ -12,11 +14,49 @@
     font-family: Verdana, Arial, Helvetica, sans-serif; 
     font-size: 11pt; /* Размер шрифта в пунктах */ 
    }
+		.demo{
+  width: 300px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 </style>
 </head>
 <body>
 <h1 align="center">HAZARKIN</h1>
 <h2 align="center">Лучшие машины во вселенной</h2>
+	<div class="demo">
+  <div> <img src="./9tJKhya28Mk.jpg" width="100px" height="100px" alt=""> </div>
+  <div> <img src="./HlTKnIpByaI.jpg" width="100px" height="100px" alt=""> </div>
+    <div> <img src="./sQy7Do-sN44.jpgg" width="100px" height="100px" alt=""> </div>
+      <div> <img src="./tXdec7xpre0.jpg" width="100px" height="100px" alt=""> </div>
+</div>
+<script src="./jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="./jsSlick.js"></script>
 <img src="./rusty_car.png" width=100%>
 </body>
 </html>
